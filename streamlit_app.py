@@ -15,6 +15,45 @@ from unsup_f_selection import unsup_feature_selection
 from model_cluster import clustering_method
 from nlp import eda_dtale
 
+import streamlit as st
+import pandas as pd
+import numpy as np
+import sweetviz as sv
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numba
+from pandas_profiling import ProfileReport
+from streamlit_pandas_profiling import st_profile_report
+from sklearn.impute import SimpleImputer
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression, Lasso, Ridge, ElasticNet
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+from sklearn.svm import SVR
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
+from xgboost import XGBRegressor
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
+from collections import Counter
+from imblearn.over_sampling import SMOTE
+from sklearn.metrics import precision_score, recall_score, f1_score
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler, Binarizer, StandardScaler, Normalizer
+from sklearn.feature_selection import RFE
+from sklearn.svm import SVR
+from sklearn.datasets import make_friedman1
+from sklearn.cluster import KMeans
+from sklearn.cluster import DBSCAN, AgglomerativeClustering
+from sklearn.datasets import make_blobs
+from sklearn.metrics import silhouette_samples, silhouette_score
+from sklearn.impute import SimpleImputer
+
+
 #data5 = None 
 
 if os.path.exists('./dataset.csv'): 
