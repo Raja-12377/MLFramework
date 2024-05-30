@@ -1,12 +1,5 @@
 pip == 23.3.1
 streamlit == 1.33.0
-scikit-learn
-numpy
-pandas
-seaborn
-matplotlib
-
-streamlit
 pandas
 numpy
 sweetviz
@@ -31,7 +24,5 @@ sklearn.feature_selection
 SVR: sklearn.svm
 sklearn.cluster
 sklearn.preprocessing
-StandardScaler: sklearn.preprocessing
-MinMaxScaler: sklearn.preprocessing
-Normalizer: sklearn.preprocessing
-Collections: collections
+sklearn.preprocessing
+collections
