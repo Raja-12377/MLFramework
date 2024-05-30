@@ -21,7 +21,7 @@ sklearn.model_selection
 sklearn.metric
 imblearn.over_sampling
 sklearn.feature_selection
-SVR: sklearn.svm
+sklearn.svm
 sklearn.cluster
 sklearn.preprocessing
 sklearn.preprocessing
