@@ -6,42 +6,31 @@ pandas
 seaborn
 matplotlib
 
-Streamlit: streamlit
-Pandas: pandas
-NumPy: numpy
-Sweetviz: sweetviz
-Matplotlib: matplotlib
-Seaborn: seaborn
-Numba: numba
-Pandas Profiling: pandas-profiling
-Streamlit Pandas Profiling: streamlit-pandas-profiling
-Scikit-learn: scikit-learn
-Linear Regression: sklearn.linear_model
-Lasso: sklearn.linear_model
-Ridge: sklearn.linear_model
-Elastic Net: sklearn.linear_model
-Support Vector Regression: sklearn.svm
-Decision Tree Regressor: sklearn.tree
-Random Forest Regressor: sklearn.ensemble
-XGBoost Regressor: xgboost
-Logistic Regression: sklearn.linear_model
-Label Encoder: sklearn.preprocessing
-One Hot Encoder: sklearn.preprocessing
-Simple Imputer: sklearn.impute
-Train Test Split: sklearn.model_selection
-R2 Score: sklearn.metrics
-Mean Absolute Error: sklearn.metrics
-Mean Squared Error: sklearn.metrics
-Precision Score: sklearn.metrics
-Recall Score: sklearn.metrics
-F1 Score: sklearn.metrics
-SMOTE: imblearn.over_sampling
-RFE: sklearn.feature_selection
+streamlit
+pandas
+numpy
+sweetviz
+matplotlib
+seaborn
+numba
+pandas-profiling
+streamlit-pandas-profiling
+scikit-learn
+sklearn.linear_model
+sklearn.svm
+sklearn.tree
+sklearn.ensemble
+xgboost
+sklearn.linear_model
+sklearn.preprocessing
+sklearn.impute
+sklearn.model_selection
+sklearn.metric
+imblearn.over_sampling
+sklearn.feature_selection
 SVR: sklearn.svm
-KMeans: sklearn.cluster
-DBSCAN: sklearn.cluster
-Agglomerative Clustering: sklearn.cluster
-Binarizer: sklearn.preprocessing
+sklearn.cluster
+sklearn.preprocessing
 StandardScaler: sklearn.preprocessing
 MinMaxScaler: sklearn.preprocessing
 Normalizer: sklearn.preprocessing
